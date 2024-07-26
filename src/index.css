@@ -1,0 +1,34 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* color: rgb(179, 169, 169); */
+}
+
+.PlayListIcon{
+  height: 50%;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  font-size: 29px;
+  cursor: pointer;
+  transition: all 350ms ease-in;
+  position: relative;
+}
+.PlayListIcon:hover{
+  color: #a8701d;
+}
+
+.NotActive{
+  color: white;
+}
+.Active{
+  color: #a8701d;
+}
+
+.pointer{
+  cursor: pointer;
+}
